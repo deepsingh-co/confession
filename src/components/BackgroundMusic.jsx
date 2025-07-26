@@ -32,7 +32,7 @@ const BackgroundMusic = forwardRef((_, ref) => {
 
   return (
     <audio ref={audioRef} loop className="hidden">
-      <source src="/audio/bg.mp3" type="audio/mpeg" />
+      <source src="/audio/bg.mp3" type="audio/mp3" />
       Your browser does not support the audio element.
     </audio>
   )
